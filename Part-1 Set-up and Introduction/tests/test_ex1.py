@@ -1,11 +1,9 @@
-# from django.test import TestCase
+import pytest
 
-# class TestClass(TestCase):
-#     def test_hello_world(self):
-#         self.assertEqual("hello", "hello")
+@pytest.mark.slow
+def test_example():
+    print("test1")
+    assert 1 == 1
 
-# import pytest
-
-# @pytest.mark.slow
-# def test_hello_world():
-#     assert "hello" == "hello"
+def test_example1():
+    assert 1 == 1
