@@ -1,11 +1,12 @@
-# import pytest
+import pytest
 
 # # function  Run once per test
-# # class	    Run once per class of tests
+# # class	  Run once per class of tests
 # # module	  Run once per module
 # # session	  Run once per session
 
 # @pytest.fixture(scope="session")
+# # @pytest.fixture
 # def fixture_1():
 #    print('run-fixture-1')
 #    return 1

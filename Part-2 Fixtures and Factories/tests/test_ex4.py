@@ -17,9 +17,9 @@ import pytest
 #     print('check-user2')
 #     assert user_1.username == "test-user"
 
-# def test_new_user(new_user):
-#     print(new_user.first_name)
-#     assert new_user.first_name == "MyName"
+# def test_new_user(new_user1):
+#     print(new_user1.first_name)
+#     assert new_user1.first_name == "MyName"
 
 def test_new_user(new_user2):
     print(new_user2.is_staff)
