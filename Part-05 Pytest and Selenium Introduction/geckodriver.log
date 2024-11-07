@@ -52,3 +52,17 @@ console.error: "Warning: unrecognized command line flag" "-foreground"
 console.error: ({})
 1730952031502	Marionette	INFO	Stopped listening on port 55467
 Dynamically enable window occlusion 1
+1730952161998	geckodriver	INFO	Listening on 127.0.0.1:55676
+1730952165054	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\motoc\\AppData\\Local\\Temp\\rust_mozprofileI1WRcf"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1730952165279	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+console.error: "Warning: unrecognized command line flag" "-foreground"
+1730952165384	Marionette	INFO	Listening on port 55684
+1730952165613	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+1730952166361	Marionette	INFO	Stopped listening on port 55684
+Dynamically enable window occlusion 1
