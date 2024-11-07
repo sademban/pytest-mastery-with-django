@@ -1,0 +1,28 @@
+1730954453207	geckodriver	INFO	Listening on 127.0.0.1:59001
+1730954456267	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\motoc\\AppData\\Local\\Temp\\rust_mozprofilez2H0z1"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1730954456509	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+console.error: "Warning: unrecognized command line flag" "-foreground"
+1730954456604	Marionette	INFO	Listening on port 59009
+1730954456849	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+1730954457796	Marionette	INFO	Stopped listening on port 59009
+Dynamically enable window occlusion 1
+1730959601099	geckodriver	INFO	Listening on 127.0.0.1:64359
+1730959604153	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\motoc\\AppData\\Local\\Temp\\rust_mozprofilevYg7P4"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1730959604386	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+console.error: "Warning: unrecognized command line flag" "-foreground"
+1730959604485	Marionette	INFO	Listening on port 64374
+1730959604723	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+1730959606475	Marionette	INFO	Stopped listening on port 64374
+Dynamically enable window occlusion 1

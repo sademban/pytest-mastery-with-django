@@ -10,12 +10,17 @@ def take_screenshot(driver, name):
     os.makedirs(os.path.join("screenshot", os.path.dirname(name)), exist_ok=True)
     driver.save_screenshot(os.path.join("screenshot", name))
 
+# def test_example(live_server):
+#     driver = webdriver.Chrome(r"C:\old-desktop\DEV_OPS\TESTING\pytest-mastery-with-django\Part-05 Pytest and Selenium Introduction\chromedriver\chromedriver.exe")
+#     driver.get(("%s%s" % (live_server.url, "/admin/")))
+#     take_screenshot(driver, "admin/admin.png")
+    
 
 # def test_example(live_server):
 #     options = webdriver.ChromeOptions()
 #     options.add_argument("--headless")
 #     options.add_argument("--window-size=1920,1080")
-#     chrome_driver = webdriver.Chrome("./chromedriver", options=options)
+#     chrome_driver = webdriver.Chrome(r"C:\old-desktop\DEV_OPS\TESTING\pytest-mastery-with-django\Part-05 Pytest and Selenium Introduction\chromedriver\chromedriver.exe", options=options)
 #     chrome_driver.get(("%s%s" % (live_server.url, "/admin/")))
 #     take_screenshot(chrome_driver, "admin/admin.png")
 
@@ -26,18 +31,18 @@ def driver_init(request):
         options = webdriver.ChromeOptions()
         options.add_argument("--headless")
         options.add_argument("--window-size=1920,1080")
-        web_driver = webdriver.Chrome(executable_path=r"./chromedriver", options=options)
+        web_driver = webdriver.Chrome(executable_path=r"C:\old-desktop\DEV_OPS\TESTING\pytest-mastery-with-django\Part-05 Pytest and Selenium Introduction\chromedriver\chromedriver.exe", options=options)
         request.cls.browser = "Chrome1920x1080"
     if request.param == "chrome411":
         options = webdriver.ChromeOptions()
         options.add_argument("--headless")
         options.add_argument("--window-size=411,823")
-        web_driver = webdriver.Chrome(executable_path=r"./chromedriver", options=options)
+        web_driver = webdriver.Chrome(executable_path=r"C:\old-desktop\DEV_OPS\TESTING\pytest-mastery-with-django\Part-05 Pytest and Selenium Introduction\chromedriver\chromedriver.exe", options=options)
         request.cls.browser = "Chrome411x823"
     if request.param == "firefox":
         options = webdriver.FirefoxOptions()
         options.add_argument("--headless")
-        web_driver = webdriver.Firefox(executable_path=r"./geckodriver", options=options)
+        web_driver = webdriver.Firefox(executable_path=r"C:\old-desktop\DEV_OPS\TESTING\pytest-mastery-with-django\Part-05 Pytest and Selenium Introduction\geckodriver\geckodriver.exe", options=options)
         request.cls.browser = "Firefox"
     request.cls.driver = web_driver
     yield

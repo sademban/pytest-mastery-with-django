@@ -30,11 +30,11 @@ def driver_init(request):
     if request.param == "chrome":
         options = webdriver.ChromeOptions()
         options.add_argument("--headless")
-        web_driver = webdriver.Chrome(executable_path=r"./chromedriver", options=options)
+        web_driver = webdriver.Chrome(executable_path=r"C:\old-desktop\DEV_OPS\TESTING\pytest-mastery-with-django\Part-05 Pytest and Selenium Introduction\chromedriver\chromedriver.exe", options=options)
     if request.param == "firefox":
         options = webdriver.FirefoxOptions()
         options.add_argument("--headless")
-        web_driver = webdriver.Firefox(executable_path=r"./geckodriver", options=options)
+        web_driver = webdriver.Firefox(executable_path=r"C:\old-desktop\DEV_OPS\TESTING\pytest-mastery-with-django\Part-05 Pytest and Selenium Introduction\geckodriver\geckodriver.exe", options=options)
     request.cls.driver = web_driver
     yield
     web_driver.close()
