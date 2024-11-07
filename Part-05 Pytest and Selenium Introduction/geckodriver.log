@@ -1,0 +1,54 @@
+1730951228172	geckodriver	INFO	Listening on 127.0.0.1:54538
+1730951231242	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\motoc\\AppData\\Local\\Temp\\rust_mozprofilekNYhUA"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1730951231633	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+console.error: "Warning: unrecognized command line flag" "-foreground"
+1730951231744	Marionette	INFO	Listening on port 54546
+1730951231852	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+1730951232769	Marionette	INFO	Stopped listening on port 54546
+Dynamically enable window occlusion 1
+console.error: services.settings: 
+  main/cfr Signature failed  [Exception... "<no message>"  nsresult: "0x8046001e (<unknown>)"  location: "JS frame :: resource://gre/modules/ServiceRequest.sys.mjs :: open :: line 128"  data: no]
+console.error: ({})
+1730951259989	geckodriver	INFO	Listening on 127.0.0.1:54612
+1730951263051	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\motoc\\AppData\\Local\\Temp\\rust_mozprofileJL6yhd"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1730951263342	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+console.error: "Warning: unrecognized command line flag" "-foreground"
+1730951263625	Marionette	INFO	Listening on port 54623
+1730951263655	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1730951265118	Marionette	INFO	Stopped listening on port 54623
+Dynamically enable window occlusion 1
+1730951579032	geckodriver	INFO	Listening on 127.0.0.1:54999
+1730951582085	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\motoc\\AppData\\Local\\Temp\\rust_mozprofilem4QhqQ"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1730951582351	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+console.error: "Warning: unrecognized command line flag" "-foreground"
+1730951582612	Marionette	INFO	Listening on port 55007
+1730951582647	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1730951584299	Marionette	INFO	Stopped listening on port 55007
+Dynamically enable window occlusion 1
+console.error: ({})
+1730952027080	geckodriver	INFO	Listening on 127.0.0.1:55456
+1730952030105	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\motoc\\AppData\\Local\\Temp\\rust_mozprofileUMicGh"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1730952030328	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+console.error: "Warning: unrecognized command line flag" "-foreground"
+1730952030432	Marionette	INFO	Listening on port 55467
+1730952030678	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+1730952031502	Marionette	INFO	Stopped listening on port 55467
+Dynamically enable window occlusion 1
